@@ -17,7 +17,7 @@ jupyter notebook sentiment_analysis.ipynb
 Run all cells top to bottom. The dataset CSV must be in the same folder.
 
 ## Approach summary
-Raw text is lowercased, URLs/mentions/punctuation stripped, and stopwords removed. Cleaned text is converted to TF-IDF vectors (top 5000 features) and fed into a Logistic Regression classifier (80/20 train-test split). Model is evaluated with accuracy and F1-score, then tested on 3 hand-written sentences.
+Raw text is lowercased, URLs/mentions/punctuation stripped, and stopwords removed. Cleaned text is converted to TF-IDF vectors (top 5000 features) and fed into a Logistic Regression classifier (80/20 train-test split). Model is evaluated with Accuracy: 0.8571 and F1-score: 0.9231, then tested on 3 hand-written sentences.
 
 ## Limitation
 Model uses word-frequency features only — no real understanding of context or sarcasm (e.g. "Oh great, another wasted day" can be misread as positive due to the word "great"). A larger dataset or transformer-based model would help.
