@@ -1,4 +1,4 @@
-# VortexTech AIML Week 4 — Sentiment Analysis Model
+# Sentiment Analysis Model
 
 Capstone task: classify social media text as **Positive** or **Negative** using TF-IDF + Logistic Regression.
 
